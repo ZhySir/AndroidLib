@@ -48,4 +48,5 @@ dependencies {
     testImplementation rootProject.ext.deps.junit
     androidTestImplementation rootProject.ext.deps.runner
     androidTestImplementation rootProject.ext.deps.espresso
+    compile rootProject.ext.deps.design
 }

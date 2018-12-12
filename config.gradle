@@ -1,0 +1,26 @@
+ext {
+
+    android = [
+            compileSdkVersion: 26,
+            minSdkVersion    : 19,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    depsVersion = [
+            support   : '26.1.0',
+            constraint: '1.1.3',
+            design    : '26.1.0'
+    ]
+
+    deps = [
+            supportV7 : "com.android.support:appcompat-v7:${depsVersion.support}",
+            constraint: "com.android.support.constraint:constraint-layout:${depsVersion.constraint}",
+            design    : "com.android.support:design:${depsVersion.design}",
+
+            junit     : "junit:junit:4.12",
+            runner    : "com.android.support.test:runner:1.0.2",
+            espresso  : "com.android.support.test.espresso:espresso-core:3.0.2"
+    ]
+}
