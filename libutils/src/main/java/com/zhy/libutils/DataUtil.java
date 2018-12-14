@@ -7,9 +7,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 /**
- * 数据格式化工具
- * format(double in, int keepNum, boolean isRound) 保留几位小数，是否四舍五入
- * parseString2Float / parseString2Double / parseString2Int 字符串转数据
+ * utils about Data
  * Created by zhy on 2017/12/9.
  */
 
@@ -62,6 +60,11 @@ public class DataUtil {
         return format(indouble, keepNum, isRound);
     }
 
+    /**
+     * 字符串转数据
+     * @param value
+     * @return
+     */
     public static float parseString2Float(String value) {
         if (value == null || TextUtils.isEmpty(value) || "null".equalsIgnoreCase(value)) {
             return 0;

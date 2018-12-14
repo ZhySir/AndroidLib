@@ -3,7 +3,7 @@ package com.zhy.libutils;
 import android.util.Log;
 
 /**
- * 针对于防止重复点击事件
+ * utils about Click
  * Created by zhy on 2016/6/14.
  */
 

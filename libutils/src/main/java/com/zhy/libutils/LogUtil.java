@@ -4,7 +4,7 @@ import android.text.TextUtils;
 import android.util.Log;
 
 /**
- * 日志
+ * utils about Log
  * Created by zhy on 2016/6/14.
  */
 

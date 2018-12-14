@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * 常用APP的工具类，包含版本号、版本名称、安装的应用程序ICON
+ * utils about App
  * Created by zhy on 2016/6/22.
  */
 

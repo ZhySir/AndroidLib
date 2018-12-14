@@ -4,14 +4,14 @@ import android.os.CountDownTimer;
 import android.widget.Button;
 
 /**
- * 验证码倒计时
+ * utils about CountDown
  * Created by zhy on 2017/8/28.
  */
-public class TimeCountUtil extends CountDownTimer {
+public class CountDownUtil extends CountDownTimer {
 
     private Button mButton;
 
-    public TimeCountUtil(Button button, long millisInFuture, long countDownInterval) {
+    public CountDownUtil(Button button, long millisInFuture, long countDownInterval) {
         super(millisInFuture, countDownInterval);
         this.mButton = button;
     }

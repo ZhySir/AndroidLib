@@ -6,15 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Activity管理工具类
+ * utils about Activity
  * Created by zhy on 2016/6/14.
  */
-public class ActivityManagerUtil {
+public class ActivityUtil {
 
     private List<Activity> activityStack = null;
-    private static ActivityManagerUtil instance = null;
+    private static ActivityUtil instance = null;
 
-    private ActivityManagerUtil() {
+    private ActivityUtil() {
         activityStack = new ArrayList<>();
     }
 
@@ -24,11 +24,11 @@ public class ActivityManagerUtil {
     }
 
     /**
-     * @return ActivityManagerUtil
+     * @return ActivityUtil
      */
-    public static ActivityManagerUtil getInstance() {
+    public static ActivityUtil getInstance() {
         if (instance == null) {
-            instance = new ActivityManagerUtil();
+            instance = new ActivityUtil();
         }
         return instance;
     }

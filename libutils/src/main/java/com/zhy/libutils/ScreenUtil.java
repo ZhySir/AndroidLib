@@ -12,13 +12,7 @@ import android.widget.EditText;
 import java.lang.reflect.Field;
 
 /**
- * 屏幕相关的辅助工具类
- * getScreenWidth(Context context) 获得屏幕宽度
- * getScreenHeight(Context context) 获得屏幕高度
- * getStatusHeight(Context context) 获得状态栏高度
- * openKeybord(EditText mEditText, Context mContext)  打开软键盘
- * closeKeyboard(Activity activity) 关闭软键盘
- * setAlpha(Activity context, float bgAlpha) 设置当前activity的背景透明度
+ * utils about Screen
  * Created by zhy on 2016/10/12.
  */
 
