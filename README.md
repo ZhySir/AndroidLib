@@ -1,4 +1,5 @@
 # AndroidLib  
+[![](https://jitpack.io/v/ZhySir/AndroidLib.svg)](https://jitpack.io/#ZhySir/AndroidLib)  
 To get a Git project into your build:  
 Step 1. Add the JitPack repository to your build file  
 Add it in your root build.gradle at the end of repositories:  
