@@ -38,7 +38,7 @@
             android:lineSpacingExtra="6dp"
             android:textColor="@color/white"
             android:textSize="14sp"
-            tool:text="Do you want to reset your account?" />
+            tool:text="Are you OK?" />
 
         <android.support.v4.widget.Space
             android:layout_width="wrap_content"

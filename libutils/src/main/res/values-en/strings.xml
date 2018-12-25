@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LibUtils</string>
+    <!--<string name="app_name">LibUtils</string>-->
     <string name="resend_x1">Resend</string>
     <string name="resend_x2">Resend</string>
 </resources>

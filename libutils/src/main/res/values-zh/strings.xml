@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LibUtils</string>
+    <!--<string name="app_name">LibUtils</string>-->
     <string name="resend_x1">s后重发</string>
     <string name="resend_x2">重新获取</string>
 </resources>

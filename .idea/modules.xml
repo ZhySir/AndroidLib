@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLib.iml" filepath="$PROJECT_DIR$/AndroidLib.iml" />
+      <module fileurl="file://D:\WorkSoftware\Personal\AndroidLib\AndroidLib.iml" filepath="D:\WorkSoftware\Personal\AndroidLib\AndroidLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\WorkSoftware\Personal\AndroidLib\app\app.iml" filepath="D:\WorkSoftware\Personal\AndroidLib\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libutils/libutils.iml" filepath="$PROJECT_DIR$/libutils/libutils.iml" />
+      <module fileurl="file://D:\WorkSoftware\Personal\AndroidLib\libutils\libutils.iml" filepath="D:\WorkSoftware\Personal\AndroidLib\libutils\libutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/libviews/libviews.iml" filepath="$PROJECT_DIR$/libviews/libviews.iml" />
+      <module fileurl="file://D:\WorkSoftware\Personal\AndroidLib\libviews\libviews.iml" filepath="D:\WorkSoftware\Personal\AndroidLib\libviews\libviews.iml" />
     </modules>
   </component>
 </project>
