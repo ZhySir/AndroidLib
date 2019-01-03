@@ -14,6 +14,6 @@ allprojects {
 Step 2. Add the dependency  
 ```
 dependencies {
-    implementation 'com.github.ZhySir:AndroidLib:1.0.9.3'
+    implementation 'com.github.ZhySir:AndroidLib:1.0.9.4'
 }
 ```
