@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    androidTestCompile('com.android.support:support-annotations:26.1.0') {
+    androidTestImplementation('com.android.support:support-annotations:26.1.0') {
         force = true
     }
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -28,6 +28,6 @@ dependencies {
     testImplementation rootProject.ext.deps.junit
     androidTestImplementation rootProject.ext.deps.runner
     androidTestImplementation rootProject.ext.deps.espresso
-    compile project(path: ':libutils')
-    compile project(path: ':libviews')
+    implementation project(path: ':libutils')
+    implementation project(path: ':libviews')
 }
